@@ -1,0 +1,11 @@
+{
+  "name" : "MinecraftAPI",
+  "version" : "0.0.1",
+  "description" : "Corporate Enterprise Serious Business RESTfullessness Public READ-ONLY API",
+  "author" : "Bryan Abrams <bryan.abrams.eu@gmail.com>",
+  "dependencies" : {
+    "express" : "4.11.*",
+    "mysql" : "2.5.4",
+    "colors" : "1.0.3"
+  }
+}
