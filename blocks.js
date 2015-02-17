@@ -432,6 +432,303 @@ var Blocks = function( ) {
   var enchantmentTable = new Block("Enchantment Table", 116, [0]);
   this.lookup["116"] = [ enchantmentTable ];
 
+  var brewingStand = new Block("Brewing Stand", 117, [0,1,2,3]);
+  this.lookup["117"] = [ brewingStand ];
+
+  var cauldrun = new Block("Caldrun", 118, [0,1,2]);
+  this.lookup["118"] = [ cauldrun ];
+
+  var redstoneLampOff = new Block("Redstone Lamp (Off)", 123, [0]);
+  this.lookup["123"] = [ redstoneLampOff ];
+
+  var redstoneLampOn = new Block("Redstone Lamp (On)", 124, [0]);
+  this.lookup["124"] = [ redstoneLampOn ];
+
+  var doubleOakWoodSlab = new Block("Double Oak Wood Slab", 125, [0]);
+  var doubleSpruceWoodSlab = new Block("Double Spruce Wood Slab", 125, [1]);
+  var doubleBirchWoodSlab = new Block("Double Birch Wood Slab", 125, [2]);
+  var doubleJungleWoodSlab = new Block("Double Jungle Wood Slab", 125, [3]);
+  var doubleAcaciaWoodSlab = new Block("Double Acacia Wood Slab", 125, [4]);
+  var doubleDarkOakWoodSlab = new Block("Double Dark Oak Wood Slab", 125, [5]);
+  this.lookup["125"] = [
+    doubleOakWoodSlab, doubleSpruceWoodSlab, doubleBirchWoodSlab, doubleJungleWoodSlab,
+    doubleAcaciaWoodSlab, doubleDarkOakWoodSlab
+  ];
+
+  var oakWoodSlab = new Block("Oak Wood Slab", 126, [0,6]);
+  var spruceWoodSlab = new Block("Spruce Wood Slab", 126, [1,7]);
+  var birchWoodSlab = new Block("Birch Wood Slab", 126, [2,8]);
+  var jungleWoodSlab = new Block("Jungle Wood Slab", 126, [3,9]);
+  var acaciaWoodSlab = new Block("Acacia Wood Slab", 126, [4,10]);
+  var darkOakWoodSlab = new Block("Dark Oak Wood Slab", 126, [5,11]);
+  this.lookup["126"] = [
+    oakWoodSlab, spruceWoodSlab, birchWoodSlab, jungleWoodSlab,
+    acaciaWoodSlab, darkOakWoodSlab
+  ];
+
+  var cocoa = new Block("Cocoa", 127, [0]);
+  this.lookup["127"] = [ cocoa ];
+
+  var sandstoneStairs = new Block("Sandstone Stairs", 128, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["128"] = [ sandstoneStairs ];
+
+  var emeraldOre = new Block("Emerald Ore", 129, [0]);
+  this.lookup["129"] = [ emeraldOre ];
+
+  var enderChest = new Block("Ender Chest", 130, [0]);
+  this.lookup["130"] = [ enderChest ];
+
+  var tripwireHook = new Block("Tripwire Hook", 131, [0]);
+  this.lookup["131"] = [ tripwireHook ];
+
+  var tripwire = new Block("Tripwire", 132, [0]);
+  this.lookup["132"] = [ tripwire ];
+
+  var emeraldBlock = new Block("Emerald Block", 133, [0]);
+  this.lookup["133"] = [ emeraldBlock ];
+
+  var spruceWoodStairs = new Block("Spruce Wood Stairs", 134, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["134"] = [ spruceWoodStairs ];
+
+  var birchWoodStairs = new Block("Birch Wood Stairs", 135, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["135"] = [ birchWoodStairs ];
+
+  var jungleWoodStairs = new Block("Jungle Wood Stairs", 136, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["136"] = [ jungleWoodStairs ];
+
+  var commandBlock = new Block("Command Block", 137, [0]);
+  this.lookup["137"] = [ commandBlock ];
+
+  var beacon = new Block("Beacon", 138, [0]);
+  this.lookup["138"] = [ beacon ];
+
+  var cobblestoneWall = new Block("Cobblestone Wall", 139, [0,2,4,6]);
+  var mossyCobblestoneWall = new Block("Mossy Cobblestone Wall", 139, [1,3,5,7]); 
+  this.lookup["139"] = [
+    cobblestoneWall, mossyCobblestoneWall
+  ];
+
+  var flowerPot = new Block("Flower Pot", 140, [0]);
+  this.lookup["140"] = [ flowerPot ];
+
+  var carrots = new Block("Carrots", 141, [0]);
+  this.lookup["141"] = [ carrots ];
+
+  var potatoes = new Block("Potatoes", 142, [0]);
+  this.lookup["142"] = [ potatoes ];
+
+  var woodenButton = new Block("Wooden Button", 143, [0]);
+  this.lookup["143"] = [ woodenButton ];
+
+  var anvil = new Block("Anvil", 145, [0,1,2,3]);
+  this.lookup["145"] = [ anvil ];
+
+  var trappedChest = new Block("Trapped Chest", 146, [0,1,2,3]);
+  this.lookup["146"] = [ trappedChest ];
+
+  var weightedPressurePlateLight = new Block("Weighted Pressure Plate (Light)", 147, [0]);
+  this.lookup["147"] = [ weightedPressurePlateLight ];
+
+  var weightedPressurePlateHeavy = new Block("Weighted Pressure Plate (Heavy)", 148, [0]);
+  this.lookup["148"] = [ weightedPressurePlateHeavy ];
+
+  var redstoneComparatorInactive = new Block("Redstone Comparator (Inactive)", 149, [0]);
+  this.lookup["149"] = [ redstoneComparatorInactive ];
+
+  var redstoneComparatorActive = new Block("Redstone Comparator (Active)", 150, [0]);
+  this.lookup["150"] = [ redstoneComparatorActive ];
+
+  var daylightSensor = new Block("Daylight Sensor", 151, [0]);
+  this.lookup["151"] = [ daylightSensor ];
+
+  var redstoneBlock = new Block("Redstone Block", 152, [0]);
+  this.lookup["152"] = [ redstoneBlock ];
+
+  var netherQuartzOre = new Block("Nether Quartz Ore", 153, [0]);
+  this.lookup["153"] = [ netherQuartzOre ];
+
+  var quartzBlock = new Block("Quartz Block", 155, [0]);
+  var chiseledQuartzBlock = new Block("Chiseled Quartz Block", 155, [1]);
+  var pillarQuartzBlock = new Block("Pillar Quartz Block", 155, [2]);
+  this.lookup["155"] = [ 
+    quartzBlock, chiseledQuartzBlock, pillarQuartzBlock
+  ];
+
+  var quartzStairs = new Block("Quartz Stairs", 156, [0]);
+  this.lookup["156"] = [ quartzStairs ];
+
+  var activatorRail = new Block("Activator Rail", 157, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["157"] = [ activatorRail ];
+
+  var dropper = new Block("Dropper", 158, [0,1,2,3]);
+  this.lookup["158"] = [ dropper ];
+
+  var whiteStainedClay     = new Block("White Stained Clay", 159, [0]);
+  var orangeStainedClay    = new Block("Orange Stained Clay", 159, [1]);
+  var magentaStainedClay   = new Block("Magenta Stained Clay", 159, [2]);
+  var lightBlueStainedClay = new Block("Light Blue Stained Clay", 159, [3]);
+  var yellowStainedClay    = new Block("Yellow Stained Clay", 159, [4]);
+  var limeStainedClay      = new Block("Lime Stained Clay", 159, [5]);
+  var pinkStainedClay      = new Block("Pink Stained Clay", 159, [6]);
+  var grayStainedClay      = new Block("Gray Stained Clay", 159, [7]);
+  var lightGrayStainedClay = new Block("Light Gray Stained Clay", 159, [8]);
+  var cyanStainedClay      = new Block("Cyan Stained Clay", 159, [9]);
+  var purpleStainedClay    = new Block("Purple Stained Clay", 159, [10]);
+  var blueStainedClay      = new Block("Blue Stained Clay", 159, [11]);
+  var brownStainedClay     = new Block("Brown Stained Clay", 159, [12]);
+  var greenStainedClay     = new Block("Green Stained Clay", 159, [13]);
+  var redStainedClay       = new Block("Red Stained Clay", 159, [14]);
+  var blackStainedClay     = new Block("Black Stained Clay", 159, [15]);
+  this.lookup["159"] = [
+    whiteStainedClay, orangeStainedClay, magentaStainedClay, lightBlueStainedClay,
+    yellowStainedClay, limeStainedClay, pinkStainedClay, grayStainedClay,
+    lightGrayStainedClay, cyanStainedClay, purpleStainedClay, blueStainedClay,
+    brownStainedClay, greenStainedClay, redStainedClay, blackStainedClay
+  ];
+
+  var acaciaWood = new Block("Acacia Wood", 162, [0]);
+  var darkOakWood = new Block("Dark Oak Wood", 162, [1]);
+  this.lookup["162"] = [
+    acaciaWood, darkOakWood
+  ];
+
+  var acaciaWoodStairs = new Block("Acacia Wood Stairs", 163, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["163"] = [ acaciaWoodStairs ];
+
+  var darkOakWoodStairs = new Block("Dark Oak Wood Stairs", 164, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["164"] = [ darkOakWoodStairs ];
+
+  var slimeBlock = new Block("Slime Block", 165, [0]);
+  this.lookup["165"] = [ slimeBlock ];
+
+  var ironTrapdoor = new Block("Iron Trapdoor", 167, [0]);
+  this.lookup["167"] = [ ironTrapdoor ];
+
+  var prismarine = new Block("Prismarine", 168, [0]);
+  var prismarineBricks = new Block("Prismarine Bricks", 168, [1]);
+  var darkPrismarine = new Block("Dark Prismarine", 168, [2]);
+  this.lookup["168"] = [ 
+    prismarine, prismarineBricks, darkPrismarine
+  ];
+
+  var seaLantern = new Block("Sea Lantern", 169, [0]);
+  this.lookup["169"] = [ seaLantern ];
+
+  var hayBale = new Block("Hay Bale", 170, [0]);
+  this.lookup["170"] = [ hayBale ];
+
+  var whiteCarpet = new Block("White Carpet", 171, [0]);
+  var orangeCarpet = new Block("Orange Carpet", 171, [1]);
+  var magentaCarpet = new Block("Magenta Carpet", 171, [2]);
+  var lightBlueCarpet = new Block("Light Blue Carpet", 171, [3]);
+  var yellowCarpet = new Block("Yellow Carpet", 171, [4]);
+  var limeCarpet = new Block("Lime Carpet", 171, [5]);
+  var pinkCarpet = new Block("Pink Carpet", 171, [6]);
+  var grayCarpet = new Block("Gray Carpet", 171, [7]);
+  var lightGrayCarpet = new Block("Light Gray Carpet", 171, [8]);
+  var cyanCarpet = new Block("Cyan Carpet", 171, [9]);
+  var purpleCarpet = new Block("Purple Carpet", 171, [10]);
+  var blueCarpet = new Block("Blue Carpet", 171, [11]);
+  var brownCarpet = new Block("Brown Carpet", 171, [12]);
+  var greenCarpet = new Block("Green Carpet", 171, [13]);
+  var redCarpet = new Block("Red Carpet", 171, [14]);
+  var blackCarpet = new Block("Black Carpet", 171, [15]);
+  this.lookup["171"] = [
+    whiteCarpet, orangeCarpet, magentaCarpet, lightBlueCarpet,
+    yellowCarpet, limeCarpet, pinkCarpet, grayCarpet,
+    lightGrayCarpet, cyanCarpet, purpleCarpet, blueCarpet,
+    brownCarpet, greenCarpet, redCarpet, blackCarpet
+  ];
+
+  var hardenedClay = new Block("Hardened Clay", 172, [0]);
+  this.lookup["172"] = [ hardenedClay ];
+
+  var blockOfCoal = new Block("Block of Coal", 173, [0]);
+  this.lookup["173"] = [ blockOfCoal ];
+
+  var packedIce = new Block("Packed Ice", 174, [0]);
+  this.lookup["174"] = [ packedIce ];
+
+  var sunflower = new Block("Sunflower", 175, [0]);
+  var lilac = new Block("Lilac", 175, [1]);
+  var doubleTallGrass = new Block("Double Tallgrass", 175, [2]);
+  var largeFern = new Block("Large Fern", 175, [3]);
+  var roseBush = new Block("Rose Bush", 175, [4]);
+  var peony = new Block("Peony", 175, [5]);
+  this.lookup["175"] = [
+    sunflower, lilac, doubleTallGrass, largeFern, roseBush, peony
+  ]
+
+  var freestandingbanner = new Block("Free-standing Banner", 176, [0]);
+  this.lookup["176"] = [ freestandingbanner ];
+
+  var wallmountedbanner = new Block("Wall-mounted Banner", 177, [0]);
+  this.lookup["177"] = [ wallmountedbanner ]; 
+
+  var invertedDaylightSensor = new Block("Inverted Daylight Sensor", 178, [0]);
+  this.lookup["178"] = [ invertedDaylightSensor ];
+
+  var redSandstone = new Block("Red Sandstone", 179, [0]);
+  var smoothRedSandstone = new Block("Smooth Red Sandstone", 179, [1]);
+  var chiseledRedSandstone = new Block("Chiseled Red Sandstone", 179, [2]);
+  this.lookup["179"] = [ 
+    redSandstone, smoothRedSandstone, chiseledRedSandstone
+  ];
+
+  var redSandstoneStairs = new Block("Red Sandstone Stairs", 180, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["180"] = [ redSandstoneStairs ];
+
+  var doubleRedSandstoneSlab = new Block("Double Red Sandstone Slab", 181, [0]);
+  this.lookup["181"] = [ doubleRedSandstoneSlab ];
+
+  var redSandstoneSlab = new Block("Red Sandstone Slab", 182, [0,1]);
+  this.lookup["182"] = [ redSandstoneSlab ];
+
+  var spruceFenceGate = new Block("Spruce Fence Gate", 183, [0,1,2,3]);
+  this.lookup["183"] = [ spruceFenceGate ];
+
+  var birchFenceGate = new Block("Birch Fence Gate", 184, [0,1,2,3]);
+  this.lookup["184"] = [ birchFenceGate ];
+
+  var jungleFenceGate = new Block("Jungle Fence Gate", 185, [0,1,2,3]);
+  this.lookup["185"] = [ jungleFenceGate ];
+
+  var darkOakFenceGate = new Block("Dark Oak Fence Gate", 186, [0,1,2,3]);
+  this.lookup["186"] = [ darkOakFenceGate ];
+
+  var acaciaFenceGate = new Block("Acacia Fence Gate", 187, [0,1,2,3]);
+  this.lookup["187"] = [ acaciaFenceGate ];
+
+  var spruceFence = new Block("Spruce Fence", 188, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["188"] = [ spruceFence ];
+
+  var birchFence = new Block("Birch Fence", 189, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["189"] = [ birchFence ];
+
+  var jungleFence = new Block("Jungle Fence", 190, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["190"] = [ jungleFence ];
+
+  var darkOakFence = new Block("Dark Oak Fence", 191, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["191"] = [ darkOakFence ];
+
+  var acaciaFence = new Block("Acacia Fence", 192, [0,1,2,3,4,5,6,7,8,9]);
+  this.lookup["192"] = [ acaciaFence ];
+
+  var spruceDoor = new Block("Spruce Door", 193, [0,1]);
+  this.lookup["193"] = [ spruceDoor ];
+ 
+  var birchDoor = new Block("Birch Door", 194, [0,1]);
+  this.lookup["194"] = [ birchDoor ];
+
+  var jungleDoor = new Block("Jungle Door", 195, [0,1]);
+  this.lookup["195"] = [ jungleDoor  ];
+
+  var acaciaDoor = new Block("Acacia Door", 196, [0,1]);
+  this.lookup["196"] = [ acaciaDoor ];
+
+  var darkOakDoor = new Block("Dark Oak Door", 197, [0,1]);
+  this.lookup["197"] = [ darkOakDoor ];
+
 }
 
 Blocks.prototype.get = function( id, data ) {
@@ -463,7 +760,8 @@ Blocks.prototype.output = function( ) {
         placed : set[i].placed,
         broken : set[i].broken
       };
-      output.push(nb);
+      if ( nb.placed > 0 || nb.broken > 0 )
+        output.push(nb);
     }
   }
   return output;
